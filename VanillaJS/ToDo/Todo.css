@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.todo-app-container {
+  width: 350px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+header {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#search-btn {
+  background-color: lightgray;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#todo-list {
+  padding: 0;
+  max-height: 300px;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.todo-item .completed-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+  color: gray;
+}
+.todo-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+#todo-input {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.delete-todo,
+.edit-todo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+.edit-todo {
+  margin-left: 5px;
+}
+
+.todo-text {
+  cursor: pointer;
+  flex: 1;
+  font-size: 15px;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#add-todo {
+  background-color: lightgray;
+  /* color: #fff; */
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.filter-container button {
+  border: none;
+  flex: 1;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+
+#clear-all {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+/* #filter-all {
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#filter-completed {
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#filter-pending {
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 3px;
+} */

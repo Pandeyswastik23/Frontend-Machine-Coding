@@ -1,0 +1,56 @@
+<!-- Requirements For Todo App:-
+
+Basic Features:
+1 - Add Todo: Can be able to add new Todo
+2 - Display Todo: List of Todos to Display
+3 - Delete Todo: Can be able to delete selected Todo
+4 - Mark Complete / Incomplete: Should be a option to mark on todo, in case of completion or Incomplete.
+5 - Clear All: Should be a option to clear the list
+6 - Filter Todos: Should be an option of filtering of All, Completed & Pending todos.
+7 - Edit Todo: Should be an option to edit a todo
+
+Advanced Features:
+1 - Search functionality: user can be able to search todos from search bar
+2 - Drag & Drop: Should support reordering of todos using drag & drop.
+
+Scalability & Performance:
+1 - Pagination/Infinite Scroll: In case of large amount of todos, infinite scroll option should be available
+2 - Local Storage: Should add the todos in local Storage
+3 - Debouncing: Implement Debouncing for user input (search functionality)
+3 - Offline Mode: should support offline mode.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Todo.css" />
+  </head>
+  <body>
+    <div class="todo-app-container">
+      <header>
+        <h3>TODO LIST</h3>
+      </header>
+
+      <div class="search-container">
+        <input type="text" id="search-input" />
+        <button id="search-btn">🔍</button>
+      </div>
+      <div class="filter-container">
+        <button id="filter-all">All</button>
+        <button id="filter-completed">Completed</button>
+        <button id="filter-pending">Pending</button>
+        <button id="clear-all">Clear All</button>
+      </div>
+      <div class="" id="list">
+        <ul id="todo-list"></ul>
+      </div>
+      <div class="todo-container">
+        <input type="text" id="todo-input" class="input" />
+        <button class="" id="add-todo">➕ Add Todo</button>
+      </div>
+    </div>
+    <script src="Todo.js"></script>
+  </body>
+</html>
