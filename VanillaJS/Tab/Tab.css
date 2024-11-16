@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tabs-container {
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.tab-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  margin-right: 10px;
+}
+
+li.active {
+  background-color: cornflowerblue;
+}
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
