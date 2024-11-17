@@ -1,0 +1,30 @@
+.tabs-container {
+  width: 100%;
+}
+
+.tab-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.tab-title {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.tab-title.active {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  border-radius: 5px;
+}
