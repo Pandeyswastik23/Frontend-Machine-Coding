@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.accordion-container {
+  width: 350px;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  background: #ffffff;
+  padding: 10px;
+}

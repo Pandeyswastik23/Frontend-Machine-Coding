@@ -15,17 +15,12 @@ const tabData = [
 const TabPanel = () => {
   const { activeTab } = useTabContext();
 
-  const activeTabContent = tabData.find((tab) => tab.id === activeTab)?.content;
-  console.log(activeTab);
   return (
     <div>
       <div className="tab-list">
         {tabData.map((tab) => (
           <TabItem key={tab.id} tab={tab} isActive={activeTab === tab.id} />
         ))}
-      </div>
-      <div className="tab-content">
-        <p>{activeTabContent}</p>
       </div>
     </div>
   );
