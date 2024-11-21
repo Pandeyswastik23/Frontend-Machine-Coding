@@ -1,0 +1,39 @@
+.products {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.products__single {
+  padding: 20px;
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.products__single > img {
+  width: 100%;
+}
+
+.pagination {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > span {
+  margin: 15px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.selected_btn {
+  color: red;
+}
+.pagination_disabled {
+  display: none;
+}
