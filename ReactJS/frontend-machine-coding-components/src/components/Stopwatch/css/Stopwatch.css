@@ -1,0 +1,36 @@
+.stopwatch_contianer {
+  text-align: center;
+}
+
+.stopwatch_display {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.stopwatch_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.stopwatch-btn {
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+}
+
+.stopwatch-btn.play {
+  background-color: green;
+  color: white;
+}
+
+.stopwatch-btn.pause {
+  background-color: gray;
+  color: white;
+}
+
+.stopwatch-btn.stop {
+  background-color: red;
+  color: white;
+}
